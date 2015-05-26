@@ -5,7 +5,7 @@
 
 var app = angular.module('midwest', []);
 
-app.controller('MainController', ['$scope', function($scope){
+app.controller('MainController', function($scope){
 
   $scope.message = 'Midwest Software Solutions, Inc.';
-}]);
+});
